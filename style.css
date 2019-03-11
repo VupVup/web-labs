@@ -46,16 +46,12 @@ li {
 }
 
 div {
-    border: 1px solid transparent;
+    border: 1px;
     margin: 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .advert {
-        position: absolute;
-        width: 100%;
-    }
-    main {
         width: 100%;
     }
 
@@ -75,7 +71,7 @@ div {
 
     .advert {
         width: 20%;
-        height: 20%;
+        height: 100%;
     }
 
     .advert p {

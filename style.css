@@ -1,0 +1,39 @@
+header {
+    padding: 20px; /* Поля */
+    background: #E5D3BD; /* Цвет фона */
+    border: 2px solid #E81E25; /* Параметры рамки */
+    text-align: center;
+    height: 10%;
+}
+
+main {
+    padding: 20px; /* Поля */
+    background: #bfe3e5; /* Цвет фона */
+    border: 2px solid #d4e843; /* Параметры рамки */
+    display: inline-block;
+    width: 90%;
+}
+
+.advert {
+    padding: 20px; /* Поля */
+    background: #61c7e5; /* Цвет фона */
+    display: inline-block;
+    width: 7%;
+    position: absolute;
+}
+
+footer {
+    padding: 20px; /* Поля */
+    background: #1635e5; /* Цвет фона */
+    border: 2px solid #E81E25; /* Параметры рамки */
+    height: 10%;
+}
+
+li {
+    display: inline;
+}
+
+div {
+    border: 1px solid transparent;
+    margin: 0;
+}

@@ -19,15 +19,22 @@ main {
     width: 100%;
     position: relative;
     padding-left: 10px;
+    height: 500px;
 }
 
 .advert {
     background: #61c7e5; /* Цвет фона */
     float: right;
     display: inline-block;
-    padding-right: 1%;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
 }
 
+
+.advert p {
+    text-align: center;
+}
 footer {
     padding: 20px; /* Поля */
     background: #1635e5; /* Цвет фона */
@@ -45,7 +52,7 @@ div {
 
 @media (max-width: 800px) {
     .advert {
-        position: relative;
+        position: absolute;
         width: 100%;
     }
     main {
@@ -54,5 +61,24 @@ div {
 
     header li {
         font-size: 15px;
+    }
+}
+
+@media (min-width: 1000px) {
+    main h3 {
+        font-size: 50px;
+    }
+
+    footer p {
+        font-size: 30px;
+    }
+
+    .advert {
+        width: 20%;
+        height: 20%;
+    }
+
+    .advert p {
+        font-size: 30px;
     }
 }
